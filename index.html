@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YouTube Vault</title>
+<style>
+  :root { --bg: #ffffff; --text: #1d1d1f; --muted: #5f5f66; --accent: #c4302b; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #141416; --text: #ececee; --muted: #a0a0a8; --accent: #ff5a52; } }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 56px 16px; }
+  h1 { font-size: 28px; margin: 0 0 8px; }
+  .lead { color: var(--muted); margin: 0 0 32px; }
+  h2 { font-size: 18px; margin: 32px 0 8px; }
+  a { color: var(--accent); }
+  footer { margin-top: 48px; color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>YouTube Vault</h1>
+  <p class="lead">A personal tool that turns my liked YouTube videos into a searchable Obsidian notes archive.</p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Reads the list of videos I have liked on YouTube (read-only access via the YouTube Data API).</li>
+    <li>Classifies each video by topic using an AI classification model.</li>
+    <li>Writes one Markdown note per video into a local Obsidian vault on my own computer.</li>
+    <li>Lets me search my liked videos in natural language.</li>
+  </ul>
+
+  <h2>Who it is for</h2>
+  <p>This is a personal, non-commercial project used only by its developer. It is not offered as a service to other users.</p>
+
+  <h2>Privacy</h2>
+  <p>See the <a href="privacy.html">Privacy Policy</a> for how YouTube data is accessed, used and stored.</p>
+
+  <footer>YouTube Vault · personal project</footer>
+</main>
+</body>
+</html>
